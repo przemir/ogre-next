@@ -7,6 +7,7 @@ var dir_73c363ef6d45b58fb055be88b9f513a7 =
     [ "OgreVulkanDescriptorPool.h", "_ogre_vulkan_descriptor_pool_8h.html", "_ogre_vulkan_descriptor_pool_8h" ],
     [ "OgreVulkanDescriptorSets.h", "_ogre_vulkan_descriptor_sets_8h.html", "_ogre_vulkan_descriptor_sets_8h" ],
     [ "OgreVulkanDevice.h", "_ogre_vulkan_device_8h.html", "_ogre_vulkan_device_8h" ],
+    [ "OgreVulkanDeviceResource.h", "_ogre_vulkan_device_resource_8h.html", "_ogre_vulkan_device_resource_8h" ],
     [ "OgreVulkanDiscardBufferManager.h", "_ogre_vulkan_discard_buffer_manager_8h.html", "_ogre_vulkan_discard_buffer_manager_8h" ],
     [ "OgreVulkanGlobalBindingTable.h", "_ogre_vulkan_global_binding_table_8h.html", "_ogre_vulkan_global_binding_table_8h" ],
     [ "OgreVulkanGpuProgramManager.h", "_ogre_vulkan_gpu_program_manager_8h.html", "_ogre_vulkan_gpu_program_manager_8h" ],

@@ -15,6 +15,7 @@ var group___render_system =
         [ "POOL_NO_DEPTH", "struct_ogre_1_1_depth_buffer.html#a9854c57374adef41216bae68544a5b7ea569228ed0fdd8d428a5117026b6d010e", null ],
         [ "OGRE_DEPRECATED_ENUM_VER", "struct_ogre_1_1_depth_buffer.html#a9854c57374adef41216bae68544a5b7ea35634a45046af55e08feb81bd5ecbb94", null ],
         [ "POOL_DEFAULT", "struct_ogre_1_1_depth_buffer.html#a9854c57374adef41216bae68544a5b7ea00a687046bfe7a9ebd7f34256d3fbcca", null ],
+        [ "POOL_MEMORYLESS", "struct_ogre_1_1_depth_buffer.html#a9854c57374adef41216bae68544a5b7eab0c001b40fd51ae17b99ecfbb168ac42", null ],
         [ "OGRE_DEPRECATED_ENUM_VER", "struct_ogre_1_1_depth_buffer.html#a9854c57374adef41216bae68544a5b7ea35634a45046af55e08feb81bd5ecbb94", null ],
         [ "NO_POOL_EXPLICIT_RTV", "struct_ogre_1_1_depth_buffer.html#a9854c57374adef41216bae68544a5b7ea5f03ed32b2322daad0f7799072e37cea", null ],
         [ "POOL_INVALID", "struct_ogre_1_1_depth_buffer.html#a9854c57374adef41216bae68544a5b7eaf4cd568faf89ee1f03710fefbf8386ca", null ]
@@ -42,6 +43,24 @@ var group___render_system =
       [ "isStillOutstanding", "class_ogre_1_1_hardware_occlusion_query.html#a8709ecea26514056be6d7ad0444bc4ed", null ],
       [ "pullOcclusionQuery", "class_ogre_1_1_hardware_occlusion_query.html#ae30ceda53d771c5db266fdcfd14e6c9c", null ]
     ] ],
+    [ "Ogre::ParallelHlmsCompileQueue", "class_ogre_1_1_parallel_hlms_compile_queue.html", [
+      [ "Request", "struct_ogre_1_1_parallel_hlms_compile_queue_1_1_request.html", [
+        [ "finalHash", "struct_ogre_1_1_parallel_hlms_compile_queue_1_1_request.html#a9e94d94effb2702f255d8395b1120950", null ],
+        [ "passCache", "struct_ogre_1_1_parallel_hlms_compile_queue_1_1_request.html#aed4a6128776400f9f6fc385b22826e40", null ],
+        [ "queuedRenderable", "struct_ogre_1_1_parallel_hlms_compile_queue_1_1_request.html#a68594295b1af77d5638c5eada57528c5", null ],
+        [ "renderableHash", "struct_ogre_1_1_parallel_hlms_compile_queue_1_1_request.html#a8c95446916a3b4a33401d4a590a6e359", null ],
+        [ "reservedStubEntry", "struct_ogre_1_1_parallel_hlms_compile_queue_1_1_request.html#af0c1f1afd367cca41f1875a760aa4b78", null ]
+      ] ],
+      [ "ParallelHlmsCompileQueue", "class_ogre_1_1_parallel_hlms_compile_queue.html#ae38048ebb76edabb33f61e0745d796d0", null ],
+      [ "fireWarmUpParallel", "class_ogre_1_1_parallel_hlms_compile_queue.html#a392eb4d02e34df8841097ac7be82b852", null ],
+      [ "pushRequest", "class_ogre_1_1_parallel_hlms_compile_queue.html#aaf595df16ab16cb9459154049bdd86d1", null ],
+      [ "pushWarmUpRequest", "class_ogre_1_1_parallel_hlms_compile_queue.html#aac24523f28c40d659b84f80d2a43fd95", null ],
+      [ "start", "class_ogre_1_1_parallel_hlms_compile_queue.html#a5f58298ed8a892fdf0bc4dfa0a936281", null ],
+      [ "stopAndWait", "class_ogre_1_1_parallel_hlms_compile_queue.html#ab6f85d23748cecb3d025f464a928bf2a", null ],
+      [ "updateThread", "class_ogre_1_1_parallel_hlms_compile_queue.html#a7a6de65b48a5b5fd42858fd2459b2680", null ],
+      [ "updateWarmUpThread", "class_ogre_1_1_parallel_hlms_compile_queue.html#a03a265cea3e505ec77e302b9fbae9bdb", null ],
+      [ "warmUpSerial", "class_ogre_1_1_parallel_hlms_compile_queue.html#ad304fe38d2b602e9840ab2d33dacc788", null ]
+    ] ],
     [ "Ogre::QueuedRenderable", "struct_ogre_1_1_queued_renderable.html", [
       [ "QueuedRenderable", "struct_ogre_1_1_queued_renderable.html#a824405b401150a9fe60811fc7c9fe8c7", null ],
       [ "QueuedRenderable", "struct_ogre_1_1_queued_renderable.html#a1cfc9e5b48ec4ef2891e7e92237dac26", null ],
@@ -54,7 +73,8 @@ var group___render_system =
       [ "Modes", "class_ogre_1_1_render_queue.html#ad2b57c9b40e33d4b64f613a5a6147367", [
         [ "V1_LEGACY", "class_ogre_1_1_render_queue.html#ad2b57c9b40e33d4b64f613a5a6147367ac84764f8648d1701fd809afba1358b32", null ],
         [ "V1_FAST", "class_ogre_1_1_render_queue.html#ad2b57c9b40e33d4b64f613a5a6147367aae5865e2c1ce44806f2538863c9dda44", null ],
-        [ "FAST", "class_ogre_1_1_render_queue.html#ad2b57c9b40e33d4b64f613a5a6147367afaf209c76453b55e28708a165b37386e", null ]
+        [ "FAST", "class_ogre_1_1_render_queue.html#ad2b57c9b40e33d4b64f613a5a6147367afaf209c76453b55e28708a165b37386e", null ],
+        [ "PARTICLE_SYSTEM", "class_ogre_1_1_render_queue.html#ad2b57c9b40e33d4b64f613a5a6147367aaba007477484af6f9eeb1e2a1bb76754", null ]
       ] ],
       [ "RqSortMode", "class_ogre_1_1_render_queue.html#acbc6e62a79b77d38cf3881c796e0078b", [
         [ "DisableSort", "class_ogre_1_1_render_queue.html#acbc6e62a79b77d38cf3881c796e0078ba00d99f921af963915cd1e94fa6f769b8", null ],
@@ -63,6 +83,9 @@ var group___render_system =
       ] ],
       [ "RenderQueue", "class_ogre_1_1_render_queue.html#abb653f126d0d03d73e28468a89c3c24d", null ],
       [ "~RenderQueue", "class_ogre_1_1_render_queue.html#abeedbfecbb98d295978226f18f1ba5bd", null ],
+      [ "_compileShadersThread", "class_ogre_1_1_render_queue.html#ad6e291d9363608ae01f1aba7d90c8ee7", null ],
+      [ "_releaseManualHardwareResources", "class_ogre_1_1_render_queue.html#a458d605f6641f97dcf0373733cec4bb2", null ],
+      [ "_warmUpShadersThread", "class_ogre_1_1_render_queue.html#a3a989e7043b62af6ac712bfbf9968813", null ],
       [ "addRenderableV1", "class_ogre_1_1_render_queue.html#a504e8bf8d6496ea3b88ead7e6cef8aa0", null ],
       [ "addRenderableV2", "class_ogre_1_1_render_queue.html#abf6d23ea6dfa5a14cbb3052d30a7332f", null ],
       [ "clear", "class_ogre_1_1_render_queue.html#a82cdde6cd9331f28acff91089e95ba68", null ],
@@ -74,7 +97,9 @@ var group___render_system =
       [ "renderPassPrepare", "class_ogre_1_1_render_queue.html#a98ecbe887b125f095c8625f8a0144101", null ],
       [ "renderSingleObject", "class_ogre_1_1_render_queue.html#a7cdd43e3bd6ce4350d4a4b66b58a934b", null ],
       [ "setRenderQueueMode", "class_ogre_1_1_render_queue.html#a70f6d85d6cde43a1b4badf25ed09fca5", null ],
-      [ "setSortRenderQueue", "class_ogre_1_1_render_queue.html#aeb41ed3f50a9e7e270d81d045e8a23e6", null ]
+      [ "setSortRenderQueue", "class_ogre_1_1_render_queue.html#aeb41ed3f50a9e7e270d81d045e8a23e6", null ],
+      [ "warmUpShadersCollect", "class_ogre_1_1_render_queue.html#af8a1ce899163064e71e176bb7be8b87c", null ],
+      [ "warmUpShadersTrigger", "class_ogre_1_1_render_queue.html#ae2a7ef1b3b7b9f936ed6e97be9bab31a", null ]
     ] ],
     [ "Ogre::RenderQueueListener", "class_ogre_1_1_render_queue_listener.html", [
       [ "~RenderQueueListener", "class_ogre_1_1_render_queue_listener.html#aca4ab8444c09caeeff186213a98beb89", null ],
@@ -86,6 +111,16 @@ var group___render_system =
         [ "Listener", "class_ogre_1_1_render_system_1_1_listener.html#a2ccefd2fe4eb8ca096e8ec7efbefc413", null ],
         [ "~Listener", "class_ogre_1_1_render_system_1_1_listener.html#a92f2b3702187d4893f0a28993510f759", null ],
         [ "eventOccurred", "class_ogre_1_1_render_system_1_1_listener.html#aafc262fea83eae3a360aeb16d1cc7ef9", null ]
+      ] ],
+      [ "PipelineCachePrefixHeader", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html", [
+        [ "dataHash", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#a04f240ee651dab35dc4522258424e066", null ],
+        [ "dataSize", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#ac77d07b0e6bc0473b1b1aff4e740deea", null ],
+        [ "deviceID", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#ad310e23d8de3cbde5e53aa1300d39cae", null ],
+        [ "driverABI", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#abbb4c2c927e325e07a7ac3b0df0d8d2e", null ],
+        [ "driverVersion", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#af9d344027344cac649cbf88c8818a8ff", null ],
+        [ "magic", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#a2256624b997afdd46d7f2a63cfd6da93", null ],
+        [ "uuid", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#a965dc4178f058aa47f2731428d2c8fa3", null ],
+        [ "vendorID", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html#a5035d632dcd0c2af378a0aa9eb9a6c4e", null ]
       ] ],
       [ "RenderSystemContext", "struct_ogre_1_1_render_system_1_1_render_system_context.html", null ],
       [ "RenderSystem", "class_ogre_1_1_render_system.html#a3391b683d588628272d8d9de633e472e", null ],
@@ -119,12 +154,13 @@ var group___render_system =
       [ "_hlmsComputePipelineStateObjectDestroyed", "class_ogre_1_1_render_system.html#aa89a15ea101f8a99889847555725cc9c", null ],
       [ "_hlmsMacroblockCreated", "class_ogre_1_1_render_system.html#a4ff8308ab34ef75574f1f5cc005d0f8c", null ],
       [ "_hlmsMacroblockDestroyed", "class_ogre_1_1_render_system.html#a93c80e0f7c8dfc22f197a7211a5401f1", null ],
-      [ "_hlmsPipelineStateObjectCreated", "class_ogre_1_1_render_system.html#ac682bcc56a7fb4cb8ae83772dfc6b7f3", null ],
+      [ "_hlmsPipelineStateObjectCreated", "class_ogre_1_1_render_system.html#a131807fdb22c5e7a908d5e63b4d5700e", null ],
       [ "_hlmsPipelineStateObjectDestroyed", "class_ogre_1_1_render_system.html#a9120e92d45da9294119cc88f3ad8bd19", null ],
       [ "_hlmsSamplerblockCreated", "class_ogre_1_1_render_system.html#a5df47d554298bec7130841b77b301034", null ],
       [ "_hlmsSamplerblockDestroyed", "class_ogre_1_1_render_system.html#ab4c5501448cb75312320baac3fb05d1d", null ],
       [ "_initialise", "class_ogre_1_1_render_system.html#a09fdd814e1b729593686cdbd2a3e3bd7", null ],
       [ "_makeRsProjectionMatrix", "class_ogre_1_1_render_system.html#a37208fe7f2e29b71a2972defdf9d04b2", null ],
+      [ "_notifyIncompletePsoRequests", "class_ogre_1_1_render_system.html#a38a086ccaac52dc9c9dbbb7aa473a7d1", null ],
       [ "_pauseFrame", "class_ogre_1_1_render_system.html#ad47a85bcc637f332100756b7a48b3f53", null ],
       [ "_render", "class_ogre_1_1_render_system.html#a05164d117632c60852cbcc6c21fd957b", null ],
       [ "_render", "class_ogre_1_1_render_system.html#a1224b23cee7a4967f75cb947ba185b99", null ],
@@ -226,6 +262,7 @@ var group___render_system =
       [ "getGlobalInstanceVertexBufferVertexDeclaration", "class_ogre_1_1_render_system.html#ad1a30f09bb15daac26e8e10901525214", null ],
       [ "getGlobalNumberOfInstances", "class_ogre_1_1_render_system.html#af41e08cc1bc54e34d0314f4c9ffa58f6", null ],
       [ "getHorizontalTexelOffset", "class_ogre_1_1_render_system.html#a524a4df6708122fe619811e8f81afced", null ],
+      [ "getIncompletePsoRequestsCounter", "class_ogre_1_1_render_system.html#a90af952bd348e0d592a2e2ceadef1e8e", null ],
       [ "getInvertedClipSpaceY", "class_ogre_1_1_render_system.html#a3d4d8022d696854c4bb41a7d378fb0ca", null ],
       [ "getInvertVertexWinding", "class_ogre_1_1_render_system.html#ae1b32cd216d85a89fa172b34e14eedb6", null ],
       [ "getMaxBoundViewports", "class_ogre_1_1_render_system.html#ad241af863ce36e8f1827f2da967ba057", null ],
@@ -238,6 +275,7 @@ var group___render_system =
       [ "getNumPriorityConfigOptions", "class_ogre_1_1_render_system.html#aa9a9c316aaa35ecdd939550b56500279", null ],
       [ "getPixelFormatToShaderType", "class_ogre_1_1_render_system.html#a7a804eb826c8cd0245b8dd836191237e", null ],
       [ "getPriorityConfigOption", "class_ogre_1_1_render_system.html#a9b1ee9f299e9097bec1185a4ec478cf7", null ],
+      [ "getPsoRequestsTimeout", "class_ogre_1_1_render_system.html#ae21aaab7d06c59bb04f3a2fd6fa5fccc", null ],
       [ "getRenderDocApi", "class_ogre_1_1_render_system.html#ae0eb9358077e34df5039b8715647446d", null ],
       [ "getRenderSystemEvents", "class_ogre_1_1_render_system.html#a69735bd73b030fd6f6e67e8266fa131d", null ],
       [ "getRSDepthRange", "class_ogre_1_1_render_system.html#ab225cc04ee9e6bf62894f933d775f713", null ],
@@ -248,10 +286,12 @@ var group___render_system =
       [ "getWBufferEnabled", "class_ogre_1_1_render_system.html#ae0a982412b9878a5e9e95b34dde38cf0", null ],
       [ "hasAnisotropicMipMapFilter", "class_ogre_1_1_render_system.html#a2532f63fc0d0c2e76b6b61c804829628", null ],
       [ "initGPUProfiling", "class_ogre_1_1_render_system.html#a7f629d499ad8afe83cdd445198c8a128", null ],
+      [ "isDeviceLost", "class_ogre_1_1_render_system.html#a6a6c0544ad2e02be08fb19cb15a00db5", null ],
       [ "isGpuProgramBound", "class_ogre_1_1_render_system.html#a1ac003196b5b51384f714924a0041081", null ],
       [ "isReverseDepth", "class_ogre_1_1_render_system.html#a0f6d872e0df3b080da903d9e0f4af6ba", null ],
       [ "isSameLayout", "class_ogre_1_1_render_system.html#a387d5fa07b1c096496ce6a97c4f68505", null ],
       [ "isStaticBufferLockable", "class_ogre_1_1_render_system.html#a319564dc746b19bb9a1490a473227b20", null ],
+      [ "loadPipelineCache", "class_ogre_1_1_render_system.html#a8378cd3e1aa2ccd4a26214fefdb10ce0", null ],
       [ "loadRenderDocApi", "class_ogre_1_1_render_system.html#add71b4fa521a3d13c727c5afe9225bbb", null ],
       [ "markProfileEvent", "class_ogre_1_1_render_system.html#aaafa1dfb6fcf978786add8ee2b02dfb5", null ],
       [ "postExtraThreadsStarted", "class_ogre_1_1_render_system.html#a460fb2b67acdea8e3a72933e0348a82d", null ],
@@ -263,6 +303,7 @@ var group___render_system =
       [ "removeSharedListener", "class_ogre_1_1_render_system.html#a0c9650fccf5a5e54b8b933786bdbe4fb", null ],
       [ "resetClipPlanes", "class_ogre_1_1_render_system.html#a46a9b1385638112a80bf22fa1a5bf531", null ],
       [ "reverseCompareFunction", "class_ogre_1_1_render_system.html#a6a34f2ded473d4cbaeda6e954f76dbaf", null ],
+      [ "savePipelineCache", "class_ogre_1_1_render_system.html#a7fa3447da967174c882bbc445d715eab", null ],
       [ "setClipPlanes", "class_ogre_1_1_render_system.html#a23cc0a7d87b77ec3d0a34e92335bec1a", null ],
       [ "setConfigOption", "class_ogre_1_1_render_system.html#a606200a27a8adebfa62b3e388a49cf39", null ],
       [ "setCurrentPassIterationCount", "class_ogre_1_1_render_system.html#a207d38c53699525e2e49ee167f9c8eb5", null ],
@@ -274,17 +315,19 @@ var group___render_system =
       [ "setGlobalNumberOfInstances", "class_ogre_1_1_render_system.html#a3e31b243ba86e2114925a99b2c2825e1", null ],
       [ "setInvertVertexWinding", "class_ogre_1_1_render_system.html#a697f9a8c12f2d08ccc6185cd7992c238", null ],
       [ "setMetricsRecordingEnabled", "class_ogre_1_1_render_system.html#aabd963520ca3e4e48ad5d64eabc4d76d", null ],
+      [ "setPsoRequestsTimeout", "class_ogre_1_1_render_system.html#ac1ad2fb75204276cca505a255f62081d", null ],
       [ "setStencilBufferParams", "class_ogre_1_1_render_system.html#a62c4d393915276eb56752890a0029f92", null ],
       [ "setUavStartingSlot", "class_ogre_1_1_render_system.html#a2d0de2f7b75ffb2d4048534ebe90bb73", null ],
       [ "setWBufferEnabled", "class_ogre_1_1_render_system.html#a01c339f6e89d82b526fb7725424a4263", null ],
       [ "shutdown", "class_ogre_1_1_render_system.html#a46a77118396fb950d34f0124b4e6e4a2", null ],
       [ "startGpuDebuggerFrameCapture", "class_ogre_1_1_render_system.html#afe7705e26f10dccebf2e6db0b3d6859e", null ],
+      [ "supportsMultithreadedShaderCompilation", "class_ogre_1_1_render_system.html#a0d8af43ee8a36aac5f48c82d914ed10f", null ],
       [ "unregisterThread", "class_ogre_1_1_render_system.html#a64138779fab3c6b157f2de40c3831e10", null ],
       [ "updateCompositorManager", "class_ogre_1_1_render_system.html#a41328026d8be0e7143402a914f707cf9", null ],
       [ "useCustomRenderSystemCapabilities", "class_ogre_1_1_render_system.html#a6219a2d1f92be5548983a03de9522365", null ],
       [ "validateConfigOptions", "class_ogre_1_1_render_system.html#a90ca5c0fdbb3b6c21f334a6e8cdb1373", null ],
       [ "validateDevice", "class_ogre_1_1_render_system.html#a913bd8f0e2e19cf356ccaa3bed31543e", null ],
-      [ "validateSampleDescription", "class_ogre_1_1_render_system.html#a1681d824b46321ab26f5566371c9fcb8", null ]
+      [ "validateSampleDescription", "class_ogre_1_1_render_system.html#ac4dab5e3913f88477b272ba842a07a4c", null ]
     ] ],
     [ "Ogre::RenderSystemCapabilities", "class_ogre_1_1_render_system_capabilities.html", [
       [ "ShaderProfiles", "class_ogre_1_1_render_system_capabilities.html#a811e06a15b0ada4ab8926eebbd1dd63d", null ],
@@ -432,137 +475,29 @@ var group___render_system =
       [ "TransparencyShift", "class_ogre_1_1_rq_bits.html#a42fe347234f535bbad71e9c07fc1ddc7", null ]
     ] ],
     [ "Ogre::v1::DefaultHardwareBufferManager", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html", [
-      [ "BufferLicenseType", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a73af0e384fffafd30ec13438507d31eb", [
-        [ "BLT_MANUAL_RELEASE", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a73af0e384fffafd30ec13438507d31ebaefbef8f3135135145a860b8647faba4c", null ],
-        [ "BLT_AUTOMATIC_RELEASE", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a73af0e384fffafd30ec13438507d31eba2b12eec76abb4c56344b6c6ff1cdb65f", null ]
-      ] ],
       [ "DefaultHardwareBufferManager", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a2410979016bed57179e4654b1f4de6ea", null ],
-      [ "~DefaultHardwareBufferManager", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a8056a0ff60b9baaea6265daf85f4d46f", null ],
-      [ "_forceReleaseBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a704f13dfbb251f877235107f05bd7658", null ],
-      [ "_forceReleaseBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#aceaae052b526bb9949439e6e8b0c7807", null ],
-      [ "_freeUnusedBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a75e51104afd032ec36b7174540ccc7bb", null ],
-      [ "_notifyIndexBufferDestroyed", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#affc9ded1625ecbd07556ba24a15b6429", null ],
-      [ "_notifyVertexBufferDestroyed", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#ab3fc128d148ce3954e184a505199e0d2", null ],
-      [ "_releaseBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a5985f14c02e9045bbb6cc88c99c86d5f", null ],
-      [ "allocateVertexBufferCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a4290b1d29059b40215b0833ce7a54d53", null ],
-      [ "createIndexBuffer", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a4227ab96dd7e88be580a4c73a89e8bae", null ],
-      [ "createVertexBuffer", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a4b8fb4c4d0794a796c846fa41389f117", null ],
-      [ "createVertexBufferBinding", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#ac12ff24b91ac6f984db30c6347213e4b", null ],
-      [ "createVertexDeclaration", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a04fa48ce977da22d7a206c0797dd01d2", null ],
-      [ "destroyVertexBufferBinding", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a36c38ab3d9eb1fbc6c4e8e14618e7582", null ],
-      [ "destroyVertexDeclaration", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a42dbc0c949a4c097717e48590c02aa2c", null ],
-      [ "getSingleton", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#aa77cba29e2fc26de6d44a1c2dd251108", null ],
-      [ "getSingletonPtr", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a6b65fe59d4e24fa001ca86461b740bae", null ],
-      [ "registerVertexBufferSourceAndCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#af9ee8d3dbb9824f9d496192e36bd9d38", null ],
-      [ "releaseVertexBufferCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a7835f603973c41a9602a5dac80edfa08", null ],
-      [ "touchVertexBufferCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a587815d85f94e9a7bc50e1c0834a7f10", null ]
+      [ "~DefaultHardwareBufferManager", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager.html#a8056a0ff60b9baaea6265daf85f4d46f", null ]
     ] ],
     [ "Ogre::v1::DefaultHardwareBufferManagerBase", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html", [
-      [ "BufferLicenseType", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a73af0e384fffafd30ec13438507d31eb", [
-        [ "BLT_MANUAL_RELEASE", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a73af0e384fffafd30ec13438507d31ebaefbef8f3135135145a860b8647faba4c", null ],
-        [ "BLT_AUTOMATIC_RELEASE", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a73af0e384fffafd30ec13438507d31eba2b12eec76abb4c56344b6c6ff1cdb65f", null ]
-      ] ],
       [ "DefaultHardwareBufferManagerBase", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a22c5aac9b23ba3a8d242e0fd5a38e741", null ],
       [ "~DefaultHardwareBufferManagerBase", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a8e29a342b50656ff0e42b4dd41e0bbdd", null ],
-      [ "_forceReleaseBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a7f51811f14dcf9cc9c62311bf5952ce1", null ],
-      [ "_forceReleaseBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#adac7eb3844eae2dbceecfab0e0eb034c", null ],
-      [ "_freeUnusedBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a43be732cdf436d59911b8804cb26e3eb", null ],
-      [ "_notifyIndexBufferDestroyed", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a99d79f386a09e77e911112e9988838d1", null ],
-      [ "_notifyVertexBufferDestroyed", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a3d598f5c8dd22d52ce27fd9e73a7b23a", null ],
-      [ "_releaseBufferCopies", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a08297892d344182b4daa24b1b6bde626", null ],
-      [ "allocateVertexBufferCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a4b495397711f2183c49b4900bb425e78", null ],
       [ "createIndexBuffer", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#ad2c406b35ef00a6af65fda007ae46b10", null ],
-      [ "createVertexBuffer", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a10d2fec361bbc708e0f859570cdccd2b", null ],
-      [ "createVertexBufferBinding", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a256774deaf83689480f0d6c5c4a69d64", null ],
-      [ "createVertexDeclaration", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a58665eb3a989c44695611427d41fd5f9", null ],
-      [ "destroyVertexBufferBinding", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#aaec7f834aff615ec9efd3169658950b0", null ],
-      [ "destroyVertexDeclaration", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a5b732d773d680492f36f23c5d217bade", null ],
-      [ "registerVertexBufferSourceAndCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a09c24edf06c085c0d4493eb027f830cb", null ],
-      [ "releaseVertexBufferCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#ad39247a31786d77e3da0200052e5be0c", null ],
-      [ "touchVertexBufferCopy", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a28b1ee3a62509c78ab8c6c7a13ad8059", null ]
+      [ "createVertexBuffer", "class_ogre_1_1v1_1_1_default_hardware_buffer_manager_base.html#a10d2fec361bbc708e0f859570cdccd2b", null ]
     ] ],
     [ "Ogre::v1::DefaultHardwareIndexBuffer", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html", [
-      [ "IndexType", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a06f21d817782a7f95017e59581b9ddb5", null ],
-      [ "LockOptions", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cf", [
-        [ "HBL_NORMAL", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaf32b55fa8a975d085b07236f89900f26", null ],
-        [ "HBL_DISCARD", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa364f94b757045261468e68fe09c36cca", null ],
-        [ "HBL_READ_ONLY", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa688a3812b47db689eebdbfefca66df87", null ],
-        [ "HBL_NO_OVERWRITE", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfae160717b1f864d2d91aa2ba24ac38771", null ],
-        [ "HBL_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaacdcbae3ae1ce82b2f4411df53a545cb", null ]
-      ] ],
-      [ "Usage", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6d", [
-        [ "HBU_STATIC", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da0c8055304cee698c19e3080e34202430", null ],
-        [ "HBU_DYNAMIC", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da1de64eadc98dfb60e9dcdf7fe6287c09", null ],
-        [ "HBU_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da905091fc68f6e649aaa4e4aa0d5002ad", null ],
-        [ "HBU_DISCARDABLE", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6dac13bff725acd9c2ba76d95b6c700d659", null ],
-        [ "HBU_STATIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6dab5fe6ef729ea615265721a10ff7d9e57", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da951a42185ad1d0df6294822dedcafce7", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY_DISCARDABLE", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da3756a6536dc4f8a6c3434b704537c0eb", null ]
-      ] ],
       [ "DefaultHardwareIndexBuffer", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a2bb6108f91c16a51ff41f3239442f5e4", null ],
       [ "~DefaultHardwareIndexBuffer", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a9fefa141a03b39e73bfcea65e1f24c5c", null ],
-      [ "_updateFromShadow", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#af12a69db77e242b466161dd513a7e173", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a5caebd4b5db7696029eb412351d7767f", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a4c89e8f3e555b5baf18bcae16d5fb8dd", null ],
-      [ "getIndexSize", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ace6630e46d7835b95f131d44cbd34014", null ],
-      [ "getManager", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a76b05fc8856aa8aa9da03d026a3cc0a8", null ],
-      [ "getNumIndexes", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a0517791af9fa5ec04f0f5ee20cb94541", null ],
-      [ "getRenderSystemData", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a314b2ab29cf9e062c31eebd0a672010d", null ],
-      [ "getSizeInBytes", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a997aea5a43d5d3350233e7423ca55320", null ],
-      [ "getType", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ab0078249db61391213dc2cf2ab295d69", null ],
-      [ "getUsage", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a0d0b9dbd4c1ca2df4eb5e624becb919a", null ],
-      [ "hasShadowBuffer", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac4c92030c41590827bec0858e51fffea", null ],
-      [ "isLocked", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac17929a9b0f863191d33c71841a52e4a", null ],
-      [ "isSystemMemory", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#afbfc1e4bd3b60e6d2b826c7973825167", null ],
-      [ "lock", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a15616b1645a8d88b0824b77a3cca3a78", null ],
       [ "lock", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#aea39a4978c45dfb0b2a572264be9c597", null ],
       [ "readData", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a3d00dd3ce7eb0adee846354d12e545fc", null ],
-      [ "suppressHardwareUpdate", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a4674ce75bfc84fa7e6ac03a059f0dbb5", null ],
       [ "unlock", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a96bb05c4c5df1774f05b03cf66f2e5fc", null ],
-      [ "writeData", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a2e64d067e7cac8112e2f9265d9a4dc72", null ],
-      [ "IT_16BIT", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a99816df51f0f9df30bf05ba8cdad0268", null ],
-      [ "IT_32BIT", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#ac9a7bf368aa7c755fe7acd9fc936753c", null ]
+      [ "writeData", "class_ogre_1_1v1_1_1_default_hardware_index_buffer.html#a2e64d067e7cac8112e2f9265d9a4dc72", null ]
     ] ],
     [ "Ogre::v1::DefaultHardwareVertexBuffer", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html", [
-      [ "LockOptions", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cf", [
-        [ "HBL_NORMAL", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaf32b55fa8a975d085b07236f89900f26", null ],
-        [ "HBL_DISCARD", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa364f94b757045261468e68fe09c36cca", null ],
-        [ "HBL_READ_ONLY", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa688a3812b47db689eebdbfefca66df87", null ],
-        [ "HBL_NO_OVERWRITE", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfae160717b1f864d2d91aa2ba24ac38771", null ],
-        [ "HBL_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaacdcbae3ae1ce82b2f4411df53a545cb", null ]
-      ] ],
-      [ "Usage", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6d", [
-        [ "HBU_STATIC", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da0c8055304cee698c19e3080e34202430", null ],
-        [ "HBU_DYNAMIC", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da1de64eadc98dfb60e9dcdf7fe6287c09", null ],
-        [ "HBU_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da905091fc68f6e649aaa4e4aa0d5002ad", null ],
-        [ "HBU_DISCARDABLE", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6dac13bff725acd9c2ba76d95b6c700d659", null ],
-        [ "HBU_STATIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6dab5fe6ef729ea615265721a10ff7d9e57", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da951a42185ad1d0df6294822dedcafce7", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY_DISCARDABLE", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da3756a6536dc4f8a6c3434b704537c0eb", null ]
-      ] ],
       [ "DefaultHardwareVertexBuffer", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a36829dfdfe9645958e36ac60adb77bd2", null ],
       [ "DefaultHardwareVertexBuffer", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a30eb6d980fe9c50bffc3540b113268a1", null ],
       [ "~DefaultHardwareVertexBuffer", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a5ffca30bef46160766ea3ec0a56c76a2", null ],
-      [ "_updateFromShadow", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#af12a69db77e242b466161dd513a7e173", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a5caebd4b5db7696029eb412351d7767f", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a4c89e8f3e555b5baf18bcae16d5fb8dd", null ],
-      [ "getInstanceDataStepRate", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ga7587c2124804596ec7f9c1ae452f59c2", null ],
-      [ "getIsInstanceData", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ga0f4dcfb0edae123f9c5a7b4a6ea17b9d", null ],
-      [ "getManager", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#gad9f07b772aa7be2135b91056de765d0e", null ],
-      [ "getNumVertices", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ga0cc6c091de4ea1f332b11ce38b7727ab", null ],
-      [ "getRenderSystemData", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a314b2ab29cf9e062c31eebd0a672010d", null ],
-      [ "getSizeInBytes", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a997aea5a43d5d3350233e7423ca55320", null ],
-      [ "getUsage", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a0d0b9dbd4c1ca2df4eb5e624becb919a", null ],
-      [ "getVertexSize", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#gab7ce1c4af83f4e163e4fc10fe18867fa", null ],
-      [ "hasShadowBuffer", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac4c92030c41590827bec0858e51fffea", null ],
-      [ "isLocked", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ac17929a9b0f863191d33c71841a52e4a", null ],
-      [ "isSystemMemory", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#afbfc1e4bd3b60e6d2b826c7973825167", null ],
-      [ "lock", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a15616b1645a8d88b0824b77a3cca3a78", null ],
       [ "lock", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a5b27d1acc235b2fc87c0f79ff7c04b4c", null ],
       [ "readData", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#abaf945e50c9fdd24c9390a1a49762b2c", null ],
-      [ "setInstanceDataStepRate", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ga8503e2fb9f647062f47966eb5444a419", null ],
-      [ "setIsInstanceData", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#ga4aa47405464f1bcb55b1a161d3ae968f", null ],
-      [ "suppressHardwareUpdate", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a4674ce75bfc84fa7e6ac03a059f0dbb5", null ],
       [ "unlock", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#aaed1f7e658979bafd5cc15b8eb58ea3a", null ],
       [ "writeData", "class_ogre_1_1v1_1_1_default_hardware_vertex_buffer.html#a90a6a4b62f81d65b9d7515753c2cc609", null ]
     ] ],
@@ -621,10 +556,6 @@ var group___render_system =
       [ "pData", "struct_ogre_1_1v1_1_1_hardware_buffer_lock_guard.html#a1ffc945b815de23ef9910753aa316f85", null ]
     ] ],
     [ "Ogre::v1::HardwareBufferManager", "class_ogre_1_1v1_1_1_hardware_buffer_manager.html", [
-      [ "BufferLicenseType", "class_ogre_1_1v1_1_1_hardware_buffer_manager.html#a73af0e384fffafd30ec13438507d31eb", [
-        [ "BLT_MANUAL_RELEASE", "class_ogre_1_1v1_1_1_hardware_buffer_manager.html#a73af0e384fffafd30ec13438507d31ebaefbef8f3135135145a860b8647faba4c", null ],
-        [ "BLT_AUTOMATIC_RELEASE", "class_ogre_1_1v1_1_1_hardware_buffer_manager.html#a73af0e384fffafd30ec13438507d31eba2b12eec76abb4c56344b6c6ff1cdb65f", null ]
-      ] ],
       [ "HardwareBufferManager", "class_ogre_1_1v1_1_1_hardware_buffer_manager.html#a3d052ba43c323137194e3df2144e6d9a", null ],
       [ "~HardwareBufferManager", "class_ogre_1_1v1_1_1_hardware_buffer_manager.html#a5ae639e9725379af8eb4fe8bce5cffd0", null ],
       [ "_forceReleaseBufferCopies", "class_ogre_1_1v1_1_1_hardware_buffer_manager.html#a704f13dfbb251f877235107f05bd7658", null ],
@@ -676,113 +607,33 @@ var group___render_system =
     ] ],
     [ "Ogre::v1::HardwareIndexBuffer", "class_ogre_1_1v1_1_1_hardware_index_buffer.html", [
       [ "IndexType", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a06f21d817782a7f95017e59581b9ddb5", null ],
-      [ "LockOptions", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cf", [
-        [ "HBL_NORMAL", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaf32b55fa8a975d085b07236f89900f26", null ],
-        [ "HBL_DISCARD", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa364f94b757045261468e68fe09c36cca", null ],
-        [ "HBL_READ_ONLY", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa688a3812b47db689eebdbfefca66df87", null ],
-        [ "HBL_NO_OVERWRITE", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfae160717b1f864d2d91aa2ba24ac38771", null ],
-        [ "HBL_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaacdcbae3ae1ce82b2f4411df53a545cb", null ]
-      ] ],
-      [ "Usage", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6d", [
-        [ "HBU_STATIC", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da0c8055304cee698c19e3080e34202430", null ],
-        [ "HBU_DYNAMIC", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da1de64eadc98dfb60e9dcdf7fe6287c09", null ],
-        [ "HBU_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da905091fc68f6e649aaa4e4aa0d5002ad", null ],
-        [ "HBU_DISCARDABLE", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6dac13bff725acd9c2ba76d95b6c700d659", null ],
-        [ "HBU_STATIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6dab5fe6ef729ea615265721a10ff7d9e57", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da951a42185ad1d0df6294822dedcafce7", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY_DISCARDABLE", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a87632db14ce9c10e113f1966c6a97c6da3756a6536dc4f8a6c3434b704537c0eb", null ]
-      ] ],
       [ "HardwareIndexBuffer", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a8707e8c977ccd4e0003f343c6174b63e", null ],
       [ "~HardwareIndexBuffer", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#aa41a65c1179a8b20497f4f4d01bbb7a2", null ],
-      [ "_updateFromShadow", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#af12a69db77e242b466161dd513a7e173", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a5caebd4b5db7696029eb412351d7767f", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a4c89e8f3e555b5baf18bcae16d5fb8dd", null ],
       [ "getIndexSize", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ace6630e46d7835b95f131d44cbd34014", null ],
       [ "getManager", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a76b05fc8856aa8aa9da03d026a3cc0a8", null ],
       [ "getNumIndexes", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a0517791af9fa5ec04f0f5ee20cb94541", null ],
-      [ "getRenderSystemData", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a314b2ab29cf9e062c31eebd0a672010d", null ],
-      [ "getSizeInBytes", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a997aea5a43d5d3350233e7423ca55320", null ],
       [ "getType", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ab0078249db61391213dc2cf2ab295d69", null ],
-      [ "getUsage", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a0d0b9dbd4c1ca2df4eb5e624becb919a", null ],
-      [ "hasShadowBuffer", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac4c92030c41590827bec0858e51fffea", null ],
-      [ "isLocked", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac17929a9b0f863191d33c71841a52e4a", null ],
-      [ "isSystemMemory", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#afbfc1e4bd3b60e6d2b826c7973825167", null ],
-      [ "lock", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a15616b1645a8d88b0824b77a3cca3a78", null ],
-      [ "lock", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a31666db1708eb234e02e0c2cf4c7973b", null ],
-      [ "readData", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a19c89711b1b819388d454bedee62efda", null ],
-      [ "suppressHardwareUpdate", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a4674ce75bfc84fa7e6ac03a059f0dbb5", null ],
-      [ "unlock", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a7aae1bd20c8cbf01d73de735fb046635", null ],
-      [ "writeData", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ae998a972e53f2d5a9931f34aea21df8c", null ],
       [ "IT_16BIT", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#a99816df51f0f9df30bf05ba8cdad0268", null ],
       [ "IT_32BIT", "class_ogre_1_1v1_1_1_hardware_index_buffer.html#ac9a7bf368aa7c755fe7acd9fc936753c", null ]
     ] ],
     [ "Ogre::v1::HardwareIndexBufferSharedPtr", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html", [
       [ "HardwareIndexBufferSharedPtr", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a5e4179c05a1da04cf8e79ea4ad34c9ac", null ],
-      [ "HardwareIndexBufferSharedPtr", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a50f1023e7d9cd6450f45801ee8d3ebe2", null ],
-      [ "bind", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#ada1634204594ebb5a8c5906547797fad", null ],
-      [ "dynamicCast", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a8785e13dc8bf0dfda75654d464d30160", null ],
-      [ "getPointer", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a6b0bf2d42d4b802d47ade69b8ad4ba57", null ],
-      [ "isNull", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a1a5c885a46aba1ae159096d5db2318a2", null ],
-      [ "operator const std::shared_ptr< HardwareIndexBuffer > &", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#aafdac43800af5d380271d3fbd96f39c1", null ],
-      [ "operator->", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#ac16532a523152998bee5e5fab50b4020", null ],
-      [ "setNull", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#aff5fd534b22373382cc02823ed99f5b1", null ],
-      [ "staticCast", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a8c29aefd561acda4358d6076ae840799", null ],
-      [ "useCount", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a400c7fcd1943c439d90f4a6ed45b56ca", null ]
+      [ "HardwareIndexBufferSharedPtr", "class_ogre_1_1v1_1_1_hardware_index_buffer_shared_ptr.html#a50f1023e7d9cd6450f45801ee8d3ebe2", null ]
     ] ],
     [ "Ogre::v1::HardwareVertexBuffer", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html", [
-      [ "LockOptions", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cf", [
-        [ "HBL_NORMAL", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaf32b55fa8a975d085b07236f89900f26", null ],
-        [ "HBL_DISCARD", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa364f94b757045261468e68fe09c36cca", null ],
-        [ "HBL_READ_ONLY", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfa688a3812b47db689eebdbfefca66df87", null ],
-        [ "HBL_NO_OVERWRITE", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfae160717b1f864d2d91aa2ba24ac38771", null ],
-        [ "HBL_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac0c56e93ce6f29bf39fb48c3d5dc64cfaacdcbae3ae1ce82b2f4411df53a545cb", null ]
-      ] ],
-      [ "Usage", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6d", [
-        [ "HBU_STATIC", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da0c8055304cee698c19e3080e34202430", null ],
-        [ "HBU_DYNAMIC", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da1de64eadc98dfb60e9dcdf7fe6287c09", null ],
-        [ "HBU_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da905091fc68f6e649aaa4e4aa0d5002ad", null ],
-        [ "HBU_DISCARDABLE", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6dac13bff725acd9c2ba76d95b6c700d659", null ],
-        [ "HBU_STATIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6dab5fe6ef729ea615265721a10ff7d9e57", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da951a42185ad1d0df6294822dedcafce7", null ],
-        [ "HBU_DYNAMIC_WRITE_ONLY_DISCARDABLE", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a87632db14ce9c10e113f1966c6a97c6da3756a6536dc4f8a6c3434b704537c0eb", null ]
-      ] ],
       [ "HardwareVertexBuffer", "group___render_system.html#ga2ad3787b3a42af606ea280d3a92f170b", null ],
       [ "~HardwareVertexBuffer", "group___render_system.html#ga0ff3067fa9073351e714feced16e148a", null ],
-      [ "_updateFromShadow", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#af12a69db77e242b466161dd513a7e173", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a5caebd4b5db7696029eb412351d7767f", null ],
-      [ "copyData", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a4c89e8f3e555b5baf18bcae16d5fb8dd", null ],
       [ "getInstanceDataStepRate", "group___render_system.html#ga7587c2124804596ec7f9c1ae452f59c2", null ],
       [ "getIsInstanceData", "group___render_system.html#ga0f4dcfb0edae123f9c5a7b4a6ea17b9d", null ],
       [ "getManager", "group___render_system.html#gad9f07b772aa7be2135b91056de765d0e", null ],
       [ "getNumVertices", "group___render_system.html#ga0cc6c091de4ea1f332b11ce38b7727ab", null ],
-      [ "getRenderSystemData", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a314b2ab29cf9e062c31eebd0a672010d", null ],
-      [ "getSizeInBytes", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a997aea5a43d5d3350233e7423ca55320", null ],
-      [ "getUsage", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a0d0b9dbd4c1ca2df4eb5e624becb919a", null ],
       [ "getVertexSize", "group___render_system.html#gab7ce1c4af83f4e163e4fc10fe18867fa", null ],
-      [ "hasShadowBuffer", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac4c92030c41590827bec0858e51fffea", null ],
-      [ "isLocked", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ac17929a9b0f863191d33c71841a52e4a", null ],
-      [ "isSystemMemory", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#afbfc1e4bd3b60e6d2b826c7973825167", null ],
-      [ "lock", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a15616b1645a8d88b0824b77a3cca3a78", null ],
-      [ "lock", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a31666db1708eb234e02e0c2cf4c7973b", null ],
-      [ "readData", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a19c89711b1b819388d454bedee62efda", null ],
       [ "setInstanceDataStepRate", "group___render_system.html#ga8503e2fb9f647062f47966eb5444a419", null ],
-      [ "setIsInstanceData", "group___render_system.html#ga4aa47405464f1bcb55b1a161d3ae968f", null ],
-      [ "suppressHardwareUpdate", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a4674ce75bfc84fa7e6ac03a059f0dbb5", null ],
-      [ "unlock", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#a7aae1bd20c8cbf01d73de735fb046635", null ],
-      [ "writeData", "class_ogre_1_1v1_1_1_hardware_vertex_buffer.html#ae998a972e53f2d5a9931f34aea21df8c", null ]
+      [ "setIsInstanceData", "group___render_system.html#ga4aa47405464f1bcb55b1a161d3ae968f", null ]
     ] ],
     [ "Ogre::v1::HardwareVertexBufferSharedPtr", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html", [
       [ "HardwareVertexBufferSharedPtr", "group___render_system.html#ga3e104d18eefe5992088f7dca1c126279", null ],
-      [ "HardwareVertexBufferSharedPtr", "group___render_system.html#ga7017473f8c621e12e69540fe83caa2ed", null ],
-      [ "bind", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#ada1634204594ebb5a8c5906547797fad", null ],
-      [ "dynamicCast", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#a8785e13dc8bf0dfda75654d464d30160", null ],
-      [ "getPointer", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#a6b0bf2d42d4b802d47ade69b8ad4ba57", null ],
-      [ "isNull", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#a1a5c885a46aba1ae159096d5db2318a2", null ],
-      [ "operator const std::shared_ptr< HardwareVertexBuffer > &", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#aafdac43800af5d380271d3fbd96f39c1", null ],
-      [ "operator->", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#ac16532a523152998bee5e5fab50b4020", null ],
-      [ "setNull", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#aff5fd534b22373382cc02823ed99f5b1", null ],
-      [ "staticCast", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#a8c29aefd561acda4358d6076ae840799", null ],
-      [ "useCount", "class_ogre_1_1v1_1_1_hardware_vertex_buffer_shared_ptr.html#a400c7fcd1943c439d90f4a6ed45b56ca", null ]
+      [ "HardwareVertexBufferSharedPtr", "group___render_system.html#ga7017473f8c621e12e69540fe83caa2ed", null ]
     ] ],
     [ "Ogre::v1::IndexData", "class_ogre_1_1v1_1_1_index_data.html", [
       [ "IndexData", "class_ogre_1_1v1_1_1_index_data.html#a53b8d766d619f04ba8c017e8a1353cdc", null ],
@@ -1123,6 +974,7 @@ var group___render_system =
       [ "Ogre::GPU_MOZILLA", "group___render_system.html#ggac4c251bcc05376f701348bfe0f4a53b4aab1c43d5dcd6f1713640463680ffadad", null ],
       [ "Ogre::GPU_WEBKIT", "group___render_system.html#ggac4c251bcc05376f701348bfe0f4a53b4a1b40ea797205e9b18025b417a0762fe1", null ],
       [ "Ogre::GPU_IMGTEC", "group___render_system.html#ggac4c251bcc05376f701348bfe0f4a53b4ab54dcb72ac2bddffccd7d2585aecbe34", null ],
+      [ "Ogre::GPU_SAMSUNG", "group___render_system.html#ggac4c251bcc05376f701348bfe0f4a53b4a26ed31f35f379d940abc42820ec5fe47", null ],
       [ "Ogre::GPU_VENDOR_COUNT", "group___render_system.html#ggac4c251bcc05376f701348bfe0f4a53b4a39ecb7f5b44964fe66db54c9043731fc", null ]
     ] ],
     [ "Ogre::TexCoordCalcMethod", "group___render_system.html#gaa9c06899edc6b7aed7bf3b29abe9bb31", [

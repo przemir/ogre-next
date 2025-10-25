@@ -1,5 +1,6 @@
 var _ogre_common_8h =
 [
+    [ "OGRE_HAS_BUILTIN", "_ogre_common_8h.html#adc94d4b644498e7d0da29470e22a9ff6", null ],
     [ "AliasTextureNamePairList", "_ogre_common_8h.html#ga6ba37dfc5b90ddf191695822b26b3eff", null ],
     [ "BinaryOptionList", "_ogre_common_8h.html#ga1349994da6582545bdc210cb63d00e36", null ],
     [ "FloatRect", "_ogre_common_8h.html#ga39213af9254535e83b4beca0859e8a2f", null ],
@@ -118,7 +119,12 @@ var _ogre_common_8h =
       [ "OT_PATCH_29_CONTROL_POINT", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666a7fc197946c9e4554fe7cc866d797ead0", null ],
       [ "OT_PATCH_30_CONTROL_POINT", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666a1172a84681f7d68bdca1cea005fd55f9", null ],
       [ "OT_PATCH_31_CONTROL_POINT", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666a533f065a707ecf18062498a2ade0c285", null ],
-      [ "OT_PATCH_32_CONTROL_POINT", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666aa1a5ac01c92b3fb3701d5fce1521b84d", null ]
+      [ "OT_PATCH_32_CONTROL_POINT", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666aa1a5ac01c92b3fb3701d5fce1521b84d", null ],
+      [ "OT_DETAIL_ADJACENCY_BIT", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666a420b09a0f1a0f15c26d507bc923b6c09", null ],
+      [ "OT_LINE_LIST_ADJ", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666a339f42b5bdf36abf28cbcc26d026a3ea", null ],
+      [ "OT_LINE_STRIP_ADJ", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666a85c73bd00773643f2827690f13f3fb17", null ],
+      [ "OT_TRIANGLE_LIST_ADJ", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666a515e5f6d54c1586397526fd6488399f0", null ],
+      [ "OT_TRIANGLE_STRIP_ADJ", "_ogre_common_8h.html#gga0ef99399e9e670e7bb69dc373968a666aae5e1f6ba2b8916e54c50e8745abd346", null ]
     ] ],
     [ "OrientationMode", "_ogre_common_8h.html#ga86b4672dfa02cea53b10a52bd6344305", [
       [ "OR_DEGREE_0", "_ogre_common_8h.html#gga86b4672dfa02cea53b10a52bd6344305a8e7655727ba9332f3843f46a4d1b126b", null ],
@@ -203,6 +209,7 @@ var _ogre_common_8h =
     ] ],
     [ "alignToNextMultiple", "_ogre_common_8h.html#ab0535a174ea88d45d21487e6c8d9d1b9", null ],
     [ "alignToPreviousMult", "_ogre_common_8h.html#ac7792056030e699c5444481316d68f00", null ],
+    [ "bit_cast", "_ogre_common_8h.html#a28241b101431f1cf9f50b9329e9e2cf3", null ],
     [ "efficientVectorRemove", "_ogre_common_8h.html#af6b522a41a22d53734a3bc4835a2b3f5", null ],
     [ "FastHash", "_ogre_common_8h.html#ga2be47c9c5b63cc7860edcec9b22e6f10", null ],
     [ "findCommandLineOpts", "_ogre_common_8h.html#gad78e25bde5597796c07e75d4f857a3cd", null ],

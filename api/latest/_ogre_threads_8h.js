@@ -1,5 +1,6 @@
 var _ogre_threads_8h =
 [
+    [ "Ogre::DeleteOnDestructor< T >", "struct_ogre_1_1_delete_on_destructor.html", "struct_ogre_1_1_delete_on_destructor" ],
     [ "Ogre::ThreadHandle", "class_ogre_1_1_thread_handle.html", "class_ogre_1_1_thread_handle" ],
     [ "Ogre::Threads", "class_ogre_1_1_threads.html", "class_ogre_1_1_threads" ],
     [ "OGRE_THREAD_CALL_CONVENTION", "_ogre_threads_8h.html#a185766e353b49ca5f5c5073a1f069b6f", null ],

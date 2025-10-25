@@ -18,7 +18,7 @@ var searchData=
   ['skeletonchunkid_15',['SkeletonChunkID',['../group___animation.html#ga5b37bdf2f67384dbd81643164545f7bd',1,'Ogre']]],
   ['skeletonversion_16',['SkeletonVersion',['../namespace_ogre_1_1v1.html#a64f38234a267554c4c68b1c0206782f4',1,'Ogre::v1']]],
   ['skymethod_17',['SkyMethod',['../class_ogre_1_1_scene_manager.html#a6a925e073eee8e57dafc08083bc10238',1,'Ogre::SceneManager']]],
-  ['slottype_18',['SlotType',['../struct_ogre_1_1_descriptor_set_uav.html#adbb8074b5116277a91930840b9fa653a',1,'Ogre::DescriptorSetUav::SlotType()'],['../struct_ogre_1_1_descriptor_set_texture2.html#a4d69463988b7b5b64414c43a3aead6a4',1,'Ogre::DescriptorSetTexture2::SlotType()']]],
+  ['slottype_18',['slottype',['../struct_ogre_1_1_descriptor_set_uav.html#adbb8074b5116277a91930840b9fa653a',1,'Ogre::DescriptorSetUav::SlotType'],['../struct_ogre_1_1_descriptor_set_texture2.html#a4d69463988b7b5b64414c43a3aead6a4',1,'Ogre::DescriptorSetTexture2::SlotType']]],
   ['sortmode_19',['SortMode',['../group___general.html#ga73dc0089e326fa37f93a30bf67ba7e3a',1,'Ogre']]],
   ['stagingstalltype_20',['StagingStallType',['../namespace_ogre.html#af48b48d39914b067541a62b674b80935',1,'Ogre']]],
   ['status_21',['Status',['../class_ogre_1_1_async_texture_ticket.html#a4e4a25bb4d7cf6f3c5ab091432c3cbe8',1,'Ogre::AsyncTextureTicket']]],
@@ -26,7 +26,9 @@ var searchData=
   ['stereomodetype_23',['StereoModeType',['../group___general.html#ga5ddaf464fe84b110f720b21a9a94b0cf',1,'Ogre']]],
   ['storeaction_24',['StoreAction',['../namespace_ogre_1_1_store_action.html#a1605e763b81f293b404de4a521f541ca',1,'Ogre::StoreAction']]],
   ['streamtype_25',['StreamType',['../class_ogre_1_1_deflate_stream.html#aa0d681e30262c74b6c1f2ecacc85908c',1,'Ogre::DeflateStream']]],
-  ['strongmacroblockbits_26',['StrongMacroblockBits',['../struct_ogre_1_1_hlms_pass_pso.html#af263ff6f0b338cd6c9e1bfa968a7214b',1,'Ogre::HlmsPassPso']]],
-  ['submissiontype_27',['SubmissionType',['../namespace_ogre_1_1_submission_type.html#a119342ed453a2c317a310c790104831e',1,'Ogre::SubmissionType']]],
-  ['swapchainstatus_28',['SwapchainStatus',['../class_ogre_1_1_vulkan_window_swap_chain_based.html#aadf0d4f9a81f5217c467f3306941d973',1,'Ogre::VulkanWindowSwapChainBased']]]
+  ['strongblendblockbits_26',['StrongBlendblockBits',['../struct_ogre_1_1_hlms_blendblock.html#a34b45571f42c02b2db06eb7c8808c1d3',1,'Ogre::HlmsBlendblock']]],
+  ['strongblocks_27',['StrongBlocks',['../struct_ogre_1_1_hlms_pso.html#a35e506592f35b36c39b83e90333aa754',1,'Ogre::HlmsPso']]],
+  ['strongmacroblockbits_28',['StrongMacroblockBits',['../struct_ogre_1_1_hlms_macroblock.html#a4b9208c9dd4efb98a7d3e4508a9636af',1,'Ogre::HlmsMacroblock']]],
+  ['submissiontype_29',['SubmissionType',['../namespace_ogre_1_1_submission_type.html#a119342ed453a2c317a310c790104831e',1,'Ogre::SubmissionType']]],
+  ['swapchainstatus_30',['SwapchainStatus',['../class_ogre_1_1_vulkan_window_swap_chain_based.html#aadf0d4f9a81f5217c467f3306941d973',1,'Ogre::VulkanWindowSwapChainBased']]]
 ];

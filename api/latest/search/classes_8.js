@@ -56,5 +56,7 @@ var searchData=
   ['hlmsunlit_53',['HlmsUnlit',['../class_ogre_1_1_hlms_unlit.html',1,'Ogre']]],
   ['hlmsunlitdatablock_54',['HlmsUnlitDatablock',['../class_ogre_1_1_hlms_unlit_datablock.html',1,'Ogre']]],
   ['hollowellipsoidemitter_55',['HollowEllipsoidEmitter',['../class_ogre_1_1_hollow_ellipsoid_emitter.html',1,'Ogre']]],
-  ['hollowellipsoidemitterfactory_56',['HollowEllipsoidEmitterFactory',['../class_ogre_1_1_hollow_ellipsoid_emitter_factory.html',1,'Ogre']]]
+  ['hollowellipsoidemitter2_56',['HollowEllipsoidEmitter2',['../class_ogre_1_1_hollow_ellipsoid_emitter2.html',1,'Ogre']]],
+  ['hollowellipsoidemitterfactory_57',['HollowEllipsoidEmitterFactory',['../class_ogre_1_1_hollow_ellipsoid_emitter_factory.html',1,'Ogre']]],
+  ['hollowellipsoidemitterfactory2_58',['HollowEllipsoidEmitterFactory2',['../class_ogre_1_1_hollow_ellipsoid_emitter_factory2.html',1,'Ogre']]]
 ];

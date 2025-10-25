@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['namevaluepairlist_0',['NameValuePairList',['../group___general.html#gad887d0555b483f6499fcd3a4dab0e0c6',1,'Ogre']]],
-  ['nodealiasmap_1',['NodeAliasMap',['../class_ogre_1_1_compositor_workspace_def.html#a4e9d3085eb19d5e4b3396545912fb25c',1,'Ogre::CompositorWorkspaceDef']]],
-  ['nodeiterator_2',['NodeIterator',['../class_ogre_1_1v1_1_1_ribbon_trail.html#a18b2e4449b1b3541cafa3c66ea7930ea',1,'Ogre::v1::RibbonTrail']]],
-  ['nodelist_3',['NodeList',['../class_ogre_1_1v1_1_1_ribbon_trail.html#a985450dd79daa8223506ba6dd1e46399',1,'Ogre::v1::RibbonTrail']]],
-  ['nodetrackiterator_4',['NodeTrackIterator',['../class_ogre_1_1v1_1_1_animation.html#ac1fd11a647bbf155a947ed40b08239eb',1,'Ogre::v1::Animation']]],
-  ['nodetracklist_5',['NodeTrackList',['../class_ogre_1_1v1_1_1_animation.html#a0836e8971433181cf227b1d1e211356f',1,'Ogre::v1::Animation']]],
-  ['nodevec_6',['NodeVec',['../class_ogre_1_1_node.html#ac781fd1e67dee5a278fa08a43e40c402',1,'Ogre::Node']]],
-  ['nodeveciterator_7',['NodeVecIterator',['../class_ogre_1_1_node.html#a21d127688e5dbfb0eeca46f34e2e1017',1,'Ogre::Node']]],
-  ['normalsiterator_8',['NormalsIterator',['../class_ogre_1_1v1_1_1_pose.html#a8d0753d04b4ec97b0f3e4c44cea99bcf',1,'Ogre::v1::Pose']]],
-  ['normalsmap_9',['NormalsMap',['../class_ogre_1_1v1_1_1_pose.html#a786c5bdd55aaeb9ce54b27cce8ae8d6f',1,'Ogre::v1::Pose']]],
-  ['numerictrackiterator_10',['NumericTrackIterator',['../class_ogre_1_1v1_1_1_animation.html#a363522d07c2cd00f6ff12360f58195f2',1,'Ogre::v1::Animation']]],
-  ['numerictracklist_11',['NumericTrackList',['../class_ogre_1_1v1_1_1_animation.html#a3c704fdc2771b08b4b165f5765492c36',1,'Ogre::v1::Animation']]]
+  ['materialptr_0',['MaterialPtr',['../namespace_ogre.html#a57ef769e80226674c3971ce58b58c91d',1,'Ogre']]],
+  ['mathlib_1',['Mathlib',['../namespace_ogre.html#aef05d3d6e9228664fd3a04df50bbbde7',1,'Ogre']]],
+  ['memorydatastreamptr_2',['MemoryDataStreamPtr',['../namespace_ogre.html#af8656a2c0ef06642f70c4b3745ee80a2',1,'Ogre']]],
+  ['memorypoolvec_3',['MemoryPoolVec',['../namespace_ogre.html#a43278e35ec4d27a6f37928aa78eded36',1,'Ogre']]],
+  ['memorystatsentryvec_4',['MemoryStatsEntryVec',['../class_ogre_1_1_vao_manager.html#a8a984ae987b00e95b35198131a4e9a6b',1,'Ogre::VaoManager']]],
+  ['meshlodusagelist_5',['MeshLodUsageList',['../class_ogre_1_1v1_1_1_mesh.html#af2253eb8fefd1dace58c6f0d52fedd39',1,'Ogre::v1::Mesh']]],
+  ['meshptr_6',['meshptr',['../namespace_ogre_1_1v1.html#a500ac3b30068793f1dda3f0627c5cf67',1,'Ogre::v1::MeshPtr'],['../namespace_ogre.html#a5c4c0c56ea9f824c49e331f6fad33ddb',1,'Ogre::MeshPtr']]],
+  ['metadatacachemap_7',['MetadataCacheMap',['../class_ogre_1_1_texture_gpu_manager.html#a75e42d75a1eae1a28e52e4613832edb3',1,'Ogre::TextureGpuManager']]],
+  ['metadataiterator_8',['MetaDataIterator',['../class_ogre_1_1_scene_manager_enumerator.html#aba1ede3f8195a234c286f372ef181ce0',1,'Ogre::SceneManagerEnumerator']]],
+  ['metadatalist_9',['MetaDataList',['../class_ogre_1_1_scene_manager_enumerator.html#a3dca6e07a0bf90e965ba78b6a5b2f7ca',1,'Ogre::SceneManagerEnumerator']]],
+  ['metaldiscardbuffervec_10',['MetalDiscardBufferVec',['../namespace_ogre.html#a060fedef99d92c80ac01f84784d71077',1,'Ogre']]],
+  ['metalframebufferdescmap_11',['MetalFrameBufferDescMap',['../group___resources.html#gab81cd5b5485edb1ffa4c27c7fd8921bc',1,'Ogre']]],
+  ['microcode_12',['microcode',['../namespace_ogre.html#a00d4a79ab9d0df3408d7a15be1e31d9a',1,'Ogre::MicroCode'],['../class_ogre_1_1_gpu_program_manager.html#aef34af73ab87b0b09d2707ebeb43508d',1,'Ogre::GpuProgramManager::Microcode']]],
+  ['microcodemap_13',['MicrocodeMap',['../class_ogre_1_1_gpu_program_manager.html#a8b08a9cf68859ad0f7c6b723487fd118',1,'Ogre::GpuProgramManager']]],
+  ['movableobjectarray_14',['MovableObjectArray',['../class_ogre_1_1_movable_object.html#a592f139a12c32714fbc0337ddd8dfccc',1,'Ogre::MovableObject']]],
+  ['movableobjectfactoryiterator_15',['MovableObjectFactoryIterator',['../class_ogre_1_1_root.html#a724ee7dcbdb7b8052420df2fecd07c0d',1,'Ogre::Root']]],
+  ['movableobjectiterator_16',['MovableObjectIterator',['../class_ogre_1_1_scene_manager.html#af5348867645ff727d1ca25dd89795376',1,'Ogre::SceneManager']]],
+  ['movableobjectvec_17',['MovableObjectVec',['../class_ogre_1_1_scene_manager.html#a6d8f5f81e262b6347f5066da27d6fe70',1,'Ogre::SceneManager']]]
 ];

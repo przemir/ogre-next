@@ -1,6 +1,7 @@
 var _ogre_render_system_8h =
 [
     [ "Ogre::RenderSystem::Listener", "class_ogre_1_1_render_system_1_1_listener.html", "class_ogre_1_1_render_system_1_1_listener" ],
+    [ "Ogre::RenderSystem::PipelineCachePrefixHeader", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header.html", "struct_ogre_1_1_render_system_1_1_pipeline_cache_prefix_header" ],
     [ "Ogre::RenderSystem::RenderSystemContext", "struct_ogre_1_1_render_system_1_1_render_system_context.html", null ],
     [ "DepthBufferMap2", "_ogre_render_system_8h.html#ga2f5eb9e6cceaeb7656ef14cca4d42b71", null ],
     [ "DepthBufferRefMap", "_ogre_render_system_8h.html#ga9e5211c8eef66ba014a71b287aaaef53", null ],

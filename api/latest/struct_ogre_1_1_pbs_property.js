@@ -2,6 +2,7 @@ var struct_ogre_1_1_pbs_property =
 [
     [ "AmbientFixed", "struct_ogre_1_1_pbs_property.html#a4866419a67e296cc413219b1825afa86", null ],
     [ "AmbientHemisphere", "struct_ogre_1_1_pbs_property.html#abf2d2d6c9980b59d920b2fa696a81d1b", null ],
+    [ "AmbientHemisphereInverted", "struct_ogre_1_1_pbs_property.html#a1c15c1cfb15134311203c93de410d357", null ],
     [ "AmbientSh", "struct_ogre_1_1_pbs_property.html#a89f065107a8a2e2a48ef63892c243492", null ],
     [ "AmbientShMonochrome", "struct_ogre_1_1_pbs_property.html#ae10517a315c24a8b2f664c1b137034ae", null ],
     [ "BlendModeIndex0", "struct_ogre_1_1_pbs_property.html#a8efd3fe96365b28ca6b483f7d879ffaf", null ],
@@ -51,6 +52,7 @@ var struct_ogre_1_1_pbs_property =
     [ "HasPlanarReflections", "struct_ogre_1_1_pbs_property.html#a9e626e77eddbcda2cde0599ca4fbcd2e", null ],
     [ "HwGammaRead", "struct_ogre_1_1_pbs_property.html#aab3d0cdca500724d171f005429f636a6", null ],
     [ "HwGammaWrite", "struct_ogre_1_1_pbs_property.html#aeaa497522759691052990d656683cb1e", null ],
+    [ "IndustryCompatible", "struct_ogre_1_1_pbs_property.html#af5f4ffb3da35a56df12f4b13a8f3b4e1", null ],
     [ "IrradianceField", "struct_ogre_1_1_pbs_property.html#ab42d4f810c36a5d7fb930317f69d7254", null ],
     [ "IrradianceVolumes", "struct_ogre_1_1_pbs_property.html#a76e4e1218159ed28f686cc163270f7f0", null ],
     [ "LegacyMathBrdf", "struct_ogre_1_1_pbs_property.html#aa400163e80e15674460f24e2f0073d89", null ],
